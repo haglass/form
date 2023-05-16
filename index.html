@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입 폼</h1>
+    <form>
+      <label for="name">이름:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">이메일:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="password">비밀번호:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <label>성별:</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">남성</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">여성</label><br>
+
+      <label>취미:</label>
+      <input type="checkbox" id="reading" name="hobby" value="reading">
+      <label for="reading">독서</label>
+      <input type="checkbox" id="swimming" name="hobby" value="swimming">
+      <label for="swimming">수영</label>
+      <input type="checkbox" id="traveling" name="hobby" value="traveling">
+      <label for="traveling">여행</label><br>
+
+      <input type="submit" value="제출">
+    </form>
+</body>
+</html>
